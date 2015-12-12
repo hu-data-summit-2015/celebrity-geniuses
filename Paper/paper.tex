@@ -3,7 +3,7 @@
 \usepackage{amsmath}
 \usepackage{amsfonts}
 \usepackage{amssymb}
-
+\usepackage{seqsplit}
 \title{The Genius of Hollywood}
 \author{
 	Zachary Bricker  \\
@@ -37,11 +37,41 @@ As such, the authors determined that it would be an interesting exercise to exam
 \section{Review of Literature}
 
 \section{Methods}
+
+\subsection{Data Collection}
 In order to obtain the data for this analysis, reported IQ scores for celebrities were aggregated from several Internet sources. Unsurprisingly, for several celebrities, there were discrepancies between IQs reported from source to source. These discrepancies are discussed in further detail in the Discussion section. For the primary analysis though, a single IQ value per person was required. In these cases, the most frequently occurring reported IQ was selected, under the assumption that the most frequently repeated score was the one with the most popular acceptance.
 
-Using the table of IQ scores, each individual was assigned a probability. In order to obtain the probability of all of these individuals being in the 3,000 seats at the Academy Awards, the product of all individual probabilities was taken, and this product was multiplied by 3,000. 
+
+\subsection{Basic Probability Analysis}
+\label{probanal}
+Using the IQ distribution, each individual was assigned the probability of having their reported IQ score. In order to obtain the probability of all of these individuals being in the 3,000 seats at the Academy Awards, the product of all individual probabilities was taken, using the following formula and this product was multiplied by 3,000 using the following formula.
+
+\begin{equation}
+3000 * \prod_{k=1}^n p(i_k)
+\end{equation}
+Where $i_k$ is the IQ score of the $k$th celebrity and $p(i)$ is the probability function, returning the proportion of people with the IQ score $i$, and there were $n$ celebrities sampled.
+
+\subsection{Monte Carlo Simulation} 
+
 \section{Results}
+\subsection{IQ Scores}
+<INSERT HISTOGRAM HERE--as soon as Zack figures R out. :p>
+
+\subsection{Probability Analysis}
+Using the technique defined in Section \ref{probanal}, the probability of all of the sampled IQ scores being in the same random sample of 3,000 individuals is $3.4463 * 10^{-225}$.
 
 \section{Discussion}
+The result of $3.4463 * 10^{-225}$ being the probability of all the sampled IQ scores being in the same random sample of 3,000 individuals is striking--and the number is far worse than the authors had initially suspected. To put it in perspective, this probability in terms of odds is 1 chance in \seqsplit{3446300000000000000
+0000000000000000000
+0000000000000000000
+0000000000000000000
+0000000000000000000
+0000000000000000000
+0000000000000000000
+0000000000000000000
+0000000000000000000
+0000000000000000000
+0000000000000000000
+00000000000000000}. To be fair, a sample of the top reported IQs from the top entertainers is not exactly random.
 
 \end{document}
