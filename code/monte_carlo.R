@@ -12,5 +12,12 @@ source_ref = read.csv("cgr_source_iq.csv")
 # curve(f, 0,1, n=100, col='white', add=TRUE)
 
 X <- c(name_ref$Reported.IQ)
-hist(X, col="grey", breaks=seq(130,190,by=1), xlab="Reported IQ", main="Histogram for Reported IQ Distribution")
+hist(X, col="grey", breaks=seq(130,190,by=1), xlab="Reported IQ", main="")
 
+dist <- rnorm(100000,mean=100,sd=15)
+
+hist(dist,col="grey",seq(0,200,by=3),xlim=c(0,200),xlab = "IQ", main="")
+
+dist130 <- subset(dist, dist >= 130)
+
+hist(dist130, col="grey", seq(130,200,by=3), xlab="IQ", main="")
