@@ -58,13 +58,20 @@ Where $i_k$ is the IQ score of the $k$th celebrity and $p(i)$ is the probability
 \subsection{IQ Scores}
 
 \begin{figure}[h!]
-\caption{}
+\caption{Histogram for Reported IQ Distribution}
 \label{iqhist}
-\includegraphics[scale=.5]{histogram.png}
+\includegraphics[scale=.5]{reported-iq}
 \end{figure}
 
 \subsection{Probability Analysis}
 Using the technique defined in Section \ref{probanal}, the probability of all of the sampled IQ scores being in the same random sample of 3,000 individuals is $3.4463 * 10^{-225}$.
+
+\subsection{Monte Carlo Simulation}
+\begin{figure}[h!]
+\caption{Histogram for Expected IQ Distribution}
+\label{iqhist}
+\includegraphics[scale=.5]{expected-above-average}
+\end{figure}
 
 \section{Discussion}
 The result of $3.4463 * 10^{-225}$ being the probability of all the sampled IQ scores being in the same random sample of 3,000 individuals is striking--and the number is far worse than the authors had initially suspected. To put it in perspective, this probability in terms of odds is 1 chance in \seqsplit{3446300000000000000
