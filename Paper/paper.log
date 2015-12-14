@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.1.20)  12 DEC 2015 16:48
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.1.20)  14 DEC 2015 17:04
 entering extended mode
 **paper.tex
 (C:\Users\Douglas\Documents\GitHub\celebrity-geniuses\paper\paper.tex
@@ -399,31 +399,48 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 [2] <reported-iq.png, id=14, 771.88374pt x 459.7175pt>
 File: reported-iq.png Graphic file (type png)
  <use reported-iq.png>
-Package pdftex.def Info: reported-iq.png used on input line 63.
+Package pdftex.def Info: reported-iq.png used on input line 66.
 (pdftex.def)             Requested size: 385.94092pt x 229.85818pt.
 
-[3 <C:/Users/Douglas/Documents/GitHub/celebrity-geniuses/paper/reported-iq.png>
-] <expected-above-average.png, id=24, 771.88374pt x 459.7175pt>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<expected-above-average.png, id=15, 771.88374pt x 459.7175pt>
 File: expected-above-average.png Graphic file (type png)
 
 <use expected-above-average.png>
-Package pdftex.def Info: expected-above-average.png used on input line 73.
+Package pdftex.def Info: expected-above-average.png used on input line 76.
 (pdftex.def)             Requested size: 385.94092pt x 229.85818pt.
- [4 <C:/Users/Douglas/Documents/GitHub/celebrity-geniuses/paper/expected-above-
-average.png>] [5]
-(C:\Users\Douglas\Documents\GitHub\celebrity-geniuses\paper\paper.aux)
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[3]
+
+LaTeX Warning: Text page 4 contains only floats.
+
+[4 <C:/Users/Douglas/Documents/GitHub/celebrity-geniuses/paper/reported-iq.png>
+ <C:/Users/Douglas/Documents/GitHub/celebrity-geniuses/paper/expected-above-ave
+rage.png>]
+
+LaTeX Warning: Reference `methoddata' on page 5 undefined on input line 99.
+
+[5] (C:\Users\Douglas\Documents\GitHub\celebrity-geniuses\paper\paper.aux)
+
+LaTeX Warning: There were undefined references.
+
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 2260 strings out of 493921
- 27850 string characters out of 3144870
- 80880 words of memory out of 3000000
- 5537 multiletter control sequences out of 15000+200000
+ 2261 strings out of 493921
+ 27862 string characters out of 3144870
+ 81988 words of memory out of 3000000
+ 5538 multiletter control sequences out of 15000+200000
  12403 words of font info for 48 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 27i,6n,24p,585b,223s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 27i,6n,24p,592b,223s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
 <C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C
 :/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/
@@ -433,7 +450,7 @@ m Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Program F
 iles (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files
  (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files (
 x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on paper.pdf (6 pages, 107676 bytes).
+Output written on paper.pdf (6 pages, 112548 bytes).
 PDF statistics:
  61 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
