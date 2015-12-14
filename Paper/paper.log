@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.1.20)  14 DEC 2015 17:04
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.1.20)  14 DEC 2015 18:19
 entering extended mode
 **paper.tex
 (C:\Users\Douglas\Documents\GitHub\celebrity-geniuses\paper\paper.tex
@@ -399,36 +399,19 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 [2] <reported-iq.png, id=14, 771.88374pt x 459.7175pt>
 File: reported-iq.png Graphic file (type png)
  <use reported-iq.png>
-Package pdftex.def Info: reported-iq.png used on input line 66.
+Package pdftex.def Info: reported-iq.png used on input line 64.
 (pdftex.def)             Requested size: 385.94092pt x 229.85818pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 <expected-above-average.png, id=15, 771.88374pt x 459.7175pt>
 File: expected-above-average.png Graphic file (type png)
 
 <use expected-above-average.png>
-Package pdftex.def Info: expected-above-average.png used on input line 76.
+Package pdftex.def Info: expected-above-average.png used on input line 74.
 (pdftex.def)             Requested size: 385.94092pt x 229.85818pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[3]
-
-LaTeX Warning: Text page 4 contains only floats.
-
-[4 <C:/Users/Douglas/Documents/GitHub/celebrity-geniuses/paper/reported-iq.png>
- <C:/Users/Douglas/Documents/GitHub/celebrity-geniuses/paper/expected-above-ave
-rage.png>]
-
-LaTeX Warning: Reference `methoddata' on page 5 undefined on input line 99.
-
-[5] (C:\Users\Douglas\Documents\GitHub\celebrity-geniuses\paper\paper.aux)
-
-LaTeX Warning: There were undefined references.
-
+ [3 <C:/Users/Douglas/Documents/GitHub/celebrity-geniuses/paper/reported-iq.png
+>] [4 <C:/Users/Douglas/Documents/GitHub/celebrity-geniuses/paper/expected-abov
+e-average.png>] [5]
+(C:\Users\Douglas\Documents\GitHub\celebrity-geniuses\paper\paper.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
@@ -436,7 +419,7 @@ LaTeX Warning: There were multiply-defined labels.
 Here is how much of TeX's memory you used:
  2261 strings out of 493921
  27862 string characters out of 3144870
- 81988 words of memory out of 3000000
+ 79998 words of memory out of 3000000
  5538 multiletter control sequences out of 15000+200000
  12403 words of font info for 48 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
@@ -450,7 +433,7 @@ m Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Program F
 iles (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files
  (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files (
 x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on paper.pdf (6 pages, 112548 bytes).
+Output written on paper.pdf (6 pages, 112614 bytes).
 PDF statistics:
  61 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

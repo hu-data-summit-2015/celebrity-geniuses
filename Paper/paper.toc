@@ -7,5 +7,5 @@
 \contentsline {section}{\numberline {4}Results}{3}
 \contentsline {subsection}{\numberline {4.1}IQ Scores}{3}
 \contentsline {subsection}{\numberline {4.2}Probability Analysis}{3}
-\contentsline {subsection}{\numberline {4.3}Monte Carlo Simulation}{3}
-\contentsline {section}{\numberline {5}Discussion}{3}
+\contentsline {subsection}{\numberline {4.3}Monte Carlo Simulation}{4}
+\contentsline {section}{\numberline {5}Discussion}{4}

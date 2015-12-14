@@ -49,11 +49,9 @@ In order to obtain the data for this analysis, reported IQ scores for celebritie
 Using the IQ distribution, each individual was assigned the probability of having their reported IQ score. Then, the probability of all of these individuals being in the same sample, given their IQ scores, was calculated using the following formula:
 
 \begin{equation}
-3000 * \prod_{k=1}^n p(i_k)
+\frac{s!}{(s-n)!(r)!} * \prod_{k=1}^n p(i_k)
 \end{equation}
-Where $i_k$ is the IQ score of the $k$th celebrity and $p(i)$ is the probability function, returning the proportion of people with the IQ score $i$, and there were $n$ celebrities sampled.
-
-The number 3,000 represents the 3,000 seats at the Academy Awards. In truth, there are not a full 3,000 opportunities, because there are $n$ celebrities sampled--so in the 3,000 seats of the Academy Awards, there are only $\frac{3000}{n}$ chances for all $n$ celebrities to be in the 3,000 seats. However, in the interest of giving the celebrities a fighting chance, the probability is calculated in terms of 3000 opportunities, not $\frac{3000}{n}$ opportunities.
+Where $i_k$ is the IQ score of the $k$th celebrity and $p(i)$ is the probability function, returning the proportion of people with the IQ score $i$, and there were $n$ celebrities sampled, and $s$ is the total sample size.
 
 \subsection{Monte Carlo Simulation} 
 
@@ -67,7 +65,7 @@ The number 3,000 represents the 3,000 seats at the Academy Awards. In truth, the
 \end{figure}
 
 \subsection{Probability Analysis}
-Using the technique defined in Section \ref{probanal}, the probability of all of the sampled IQ scores being in the same random sample of 3,000 individuals is $3.4463 * 10^{-225}$.
+Using the technique defined in Section \ref{probanal}, the probability of all of the sampled IQ scores being in the same random sample of 3,000 individuals is $7.14*10^-94$.
 
 \subsection{Monte Carlo Simulation}
 \begin{figure}[h!]
@@ -77,18 +75,13 @@ Using the technique defined in Section \ref{probanal}, the probability of all of
 \end{figure}
 
 \section{Discussion}
-The result of $3.4463 * 10^{-225}$ being the probability of all the sampled IQ scores being in the same random sample of 3,000 individuals is striking--and the number is far worse than the authors had initially suspected. To put it in perspective, this probability in terms of odds is 1 chance in \seqsplit{3446300000000000000
-0000000000000000000
-0000000000000000000
-0000000000000000000
-0000000000000000000
-0000000000000000000
-0000000000000000000
-0000000000000000000
-0000000000000000000
-0000000000000000000
-0000000000000000000
-00000000000000000}. To be fair, a sample of the top reported IQ scores from the top entertainers is not exactly random, however this probability is still ridiculously small.
+The result of $3.4463 * 10^{-225}$ being the probability of all the sampled IQ scores being in the same random sample of 3,000 individuals is striking--and the number is far worse than the authors had initially suspected. To put it in perspective, this probability in terms of odds is 1 chance in
+\begin{quote}
+
+ \seqsplit{
+ 71400000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000}
+\end{quote} 
+To be fair, a sample of the top reported IQ scores from the top entertainers is not exactly random, however this probability is still ridiculously small.
 
 In addition, another interesting observation is the preponderance of zero-terminated IQ scores. Among the top four most frequent IQ scores are 130, 140, and 160. The IQ score of 140 alone constitutes almost 14\% of the 65 IQ scores collected. Almost 37\% of all collected scores end in a 0, but only 8\% are 130. This is not the behavior that would be expected from the IQ distribution at 130 and above, where the majority of scores are 130 as shown in Figure \ref{iqhist}. In fact, the distribution of scores obtained from the literature looks nothing like the expected.
 
